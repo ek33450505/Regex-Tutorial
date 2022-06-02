@@ -29,7 +29,7 @@ Regular expressions are made up of several components. Although nearly illegible
 ### Anchors
 
 Anchors do not match any characters in the expression, instead they match a position before or after the remaining experession characters. They are used to "anchor" the regex match at a certian position as the first and last components.
-In the email adress example the caret (^) matches the position before the first character in the string (beginning) as seen in our example: /^([a-z0-9_\.-]+. Similary, $ matches right after the last character in the string (end) as seen in our example: $.
+In the email adress example the caret (^) matches the position before the first character in the string (beginning) as seen in our example: /^([a-z0-9_\.-]+. Similary, ($) matches right after the last character in the string (end) as seen in our example.
 
 ### Quantifiers
 
